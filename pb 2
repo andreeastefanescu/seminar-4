@@ -1,0 +1,12 @@
+# pb 2:
+zile=0
+vanzaretot=0
+while vanzaretot<=10000:
+    zile+=1
+    vanzare=int(input("introduceti valoarea vanzarii:"))
+    vanzaretot+=vanzare
+print("vanzari totale:", vanzaretot)
+print("nu de zile:", zile)
+if vanzaretot>10000:
+    print("au depasit cu:", vanzaretot-10000)
+
