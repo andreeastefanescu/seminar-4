@@ -1,0 +1,6 @@
+pret=float(input())
+while pret<=0:
+    pret=float(input("Pret invalid! introduceti un pret pozitiv: "))
+print("Pretul valid este:" , pret)
+
+
